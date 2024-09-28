@@ -1,0 +1,66 @@
+.login-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .login-form {
+    width: 50%;
+    text-align: center;
+  }
+  
+  .social-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .social-btn {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .fb-btn { background-color: #3b5998; color: white; }
+  .google-btn { background-color: #db4437; color: white; }
+  .linkedin-btn { background-color: #0077b5; color: white; }
+  
+  input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .login-btn {
+    width: 85%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-section {
+    width: 40%;
+    background: linear-gradient(135deg, #42e695, #3bb2b8);
+    color: white;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .signup-btn {
+    padding: 10px 30px;
+    border: none;
+    background-color: white;
+    color: #3bb2b8;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

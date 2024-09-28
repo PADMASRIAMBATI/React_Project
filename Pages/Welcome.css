@@ -1,0 +1,75 @@
+/* Background and container styles */
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #42e695, #3bb2b8);
+    animation: fadeIn 1s ease-in;
+  }
+  
+  .welcome-card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px;
+    animation: slideUp 0.8s ease-out;
+  }
+  
+  /* Text Styles */
+  h1 {
+    font-size: 2.5rem;
+    color: #3bb2b8;
+    margin-bottom: 20px;
+  }
+  
+  h1 span {
+    color: #42e695;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  /* Button styles */
+  .explore-btn {
+    padding: 10px 30px;
+    background-color: #3bb2b8;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .explore-btn:hover {
+    background-color: #42e695;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
